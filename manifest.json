@@ -1,0 +1,19 @@
+ {
+    "name": "Check and Uncheck All",
+    "description" : "
+Simple extension to manipulate check boxes
+Check all the check boxes on the page
+If everything is checked, uncheck it",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {},
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "background",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
